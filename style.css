@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    background-color: #C5D5E4;
+}
+
+#app {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#brightnessRange {
+    margin-top: 10px;
+    width: 300px;
+    height: 20px;
+    background-color: #ddd;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    display: none;
+}
+
+canvas {
+    box-shadow: 4px 4px 4px #8896AB;
+    margin: 0 auto;
+}
+
+#imgContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#imgContainer img {
+    width: 250px;
+    height: 150px;
+    margin-right: 15px;
+    border: 5px solid #466362;
+    box-shadow: 2px 2px 2px #8896AB;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #466362;
+    justify-content: center;
+}
+
+.iconContainer {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding: 15px;
+    margin: 10px;
+    border: 2px black solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.iconContainer {
+    box-shadow: 3px 3px 3px black;
+}
+
+.bright {
+    background-color: yellow;
+}
+
+.mirror {
+    background-color: orange;
+}
+
+.greyscale {
+    background-color: rgb(68, 142, 207);
+}
+
+.negative {
+    background-color: gray;
+}
+
+.clear {
+    background-color: red;
+}
+
+.sepia {
+    background-color: violet;
+}
+
+.invertedGreyscale {
+    background-color: gainsboro;
+}
+
+.download {
+    background-color: green;
+}
